@@ -1,4 +1,4 @@
-module.exports = ({ content }: any): string => {
+module.exports = ({ content }: { content: any }): string => {
   return `
       <!DOCTYPE html>
         <html lang="en">
